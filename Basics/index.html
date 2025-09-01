@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color property</title>
+  <!-- <link rel="stylesheet" href="index.css"> -->
+  <!-- internal cass -->
+  <!-- <style>
+    
+
+    h1 {
+      color: red;
+     
+    }
+    p{
+      color: blue;
+    }
+  </style> -->
+
+
+  <!-- //universal selector -->
+   
+   <style>
+    /* *{
+      color: aqua;
+    } --> */
+
+    /* h {
+      color: red;
+     
+    }
+    p{
+      color: blue;
+    } */
+
+
+    /* //using id */
+    #first-heading{
+      color:chartreuse;
+    }
+    #random-text{
+      color:burlywood;
+    }
+
+    /* //usiing class */
+
+    .first{
+      color:rgb(6, 84, 154);
+
+
+
+    }
+
+
+    /* //use og group selector */
+
+    #first-heading , .first{
+      color:brown;
+    }
+
+
+    /* //desendent selector */
+   #third p{
+    color:deeppink;
+   }
+   p{
+    color:greenyellow;
+   }
+
+
+  </style>
+
+
+
+  <!-- inline css -->
+</head>
+<body>
+   <!-- //creating a div using # -->
+   <div id="second-heading">second Heading</div>
+
+
+  <!-- //creating a div using . -->
+ <div class="second-heading">second-heading</div>
+
+  <!-- //using id -->
+  <h1 id="first-heading" >This is the heading.</h1>
+  <p  id="random-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, qui.</p>
+
+  <!-- //use of class selector  -->
+  <h1 class="first " >This is the heading.</h1>
+  <p  class="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, qui.</p>
+
+  <!-- //group selector -->
+
+
+  
+  <!-- //using id -->
+  <h1 id="first-heading" >This is the heading.</h1>
+  <p  id="random-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, qui.</p>
+
+  <!-- //use of class selector  -->
+  <h1 class="first " >This is the heading.</h1>
+  <p  class="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, qui.</p>
+
+
+
+
+  <!-- //desendent selector  -->
+
+  <div id="third">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, laborum.
+
+    </p>
+
+   
+  </div>
+   <p>Lorem ipsum dolor sit amet.</p>
+
+
+
+</body>
+</html>

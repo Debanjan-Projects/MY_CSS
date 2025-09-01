@@ -1,0 +1,701 @@
+//very very important things that 
+//
+// get more knowledge about css so go and read the w3school and css mdn ...
+///***************************************************
+
+
+
+
+
+
+1. css file structure .
+2.Padding, mergin,Bg-color, text-color,
+3.inline and block element, class and id,
+4.position - flex box,         ..grid.
+5.tailwind and 4-5 full page website with mobile view .
+
+
+1.selectors.
+2.box model.
+3.animation,frame,motion,px vs rem..
+
+
+1.dribel
+2.behanced.
+
+
+
+// frame work of css .tailwind css
+
+
+
+// get more knowledge about css so go and read the w3school and css mdn ...
+
+
+//**************************************************************************
+//css start ....
+// main important things is the element selectors ..
+//property and value.
+
+// after select then the second things is what do u want to do with this selecct item.
+
+// the basic part to  terget and select a element is .just write the element name ,in a style tag under head tag.
+//***************************************************
+//every single browwser have two type off engine 
+//one randar sidde have html css 
+//and another side have the js.
+//**************************************************
+
+//hex code values are musch more stable .
+
+// its all abou color property.
+
+
+//***************************************
+
+//including  style 
+// inline style .....directly add with tag.
+//internal style,...fiile ke andar head ke andar style tag ka andar internal style kara jata hain. 
+//external style... duhsra koi file leke udhar external css add kara jata hain ..or main file ke sath link ke jariya se add kara jata hain.
+
+
+//internal or external style use kkarke hum log ak bar mein sare h1 tag sare p tag ko select kar sakta hain selector  kke through ..
+
+// inline mein oh nahi hota .
+// priority all time inline css  ka hoga ..
+
+//sabshe kam piority hota hain .external ki 
+// or external ki upar hota hain internal.
+//or sabse upor hota hain inline css .
+//***********************************************
+
+//important thing 
+// opening nad closing tag milake hota hain content .and full tag content milaka hota hain element.
+
+
+//*****************************************************************************
+// html attribute ..
+//kishi ke tag ke andar agar extra information pass karna hain ushko kaihta hain .atrribute ,
+
+
+//**********************************************************************
+
+//dom document objecct model..
+//hamara pura page ko ak document bolta hain.
+
+//root element hota hain html
+//html ke do type mein divided kar sakta hain 
+//1.head 
+//2.body 
+
+//head mein hota hain meta data /
+
+//or body mein hota hoin main dat a.actuall content .
+
+//*****************************************************************8
+
+// all time check the documentation for get some real world example ..
+
+//*****************************************************************
+
+//broswer tools .
+//inspect 
+//
+
+//hum log koi bhi web page ko inspect karke ush mein data change kar sakta hain.lekin ohh data srif apna mechine mein hi hota hain server pe nahi..
+
+
+//***********************************************************************
+//styless panel
+//boxx model
+
+//changes happening only at client.
+
+//source tab.// local server.
+
+//network tab
+
+//****************************************
+//universal selector .
+//*
+
+/when ever u used css . then your broswer also give his own css,
+// here we got some problem and we need to learn another type of selector ..
+//and it is known as universal selector.
+
+
+
+//universal selector ke piority sbshe list hota hain .
+//ehh srif ushke liye hain jhiske liye apne koi specific property declare nahi kiya hain.
+
+//*************************************************************
+// id and class selector .
+
+//id == unique identifier to a single html element ..
+//id ashi property hain ki ap pur apage mein do bar ap repeate nahi kar sakta hoin.
+//pure page mein unique hoin.
+//specificly ap koi ak elemet ko target kar sakta hoin.
+//id selector used by # .
+
+
+
+//class 
+//bhot sare element ko same class den apadta hain ..
+
+// aksath mein style kar sakta hain.
+// koi bhi class select kara jata hain . ke sath.
+
+
+
+//div 
+//div generally prent of other tag known as div.
+// div structure ke liye define kara jata hain.
+
+
+//koi bhi div create karneke liye just write #name the enter ..
+<div id="second-heading"></div>
+automaticallt div was created.
+
+
+<!-- //creating a div using . -->
+ <div class="second-heading">second-heading</div>
+ //just .filename then enter.
+
+
+
+ //*********************************
+ //group selector .
+
+ h1,h2,h3{
+    color: red.;
+ }
+
+ //musltiple class or multiple id ko jab aki sath aki color dena chata huin tab group selector use kara jata hain.
+
+
+//*****************************************
+//desendent selector..
+
+
+//ak hota hain ansester      selector --- ushka parent .parent ke paren.
+//or decendennt hota hain ushka child .child ke child.
+
+//without coma ak ke bad ak write karna hain..
+
+
+
+
+
+//*************************************************************
+
+//color system and background 
+//background color property 
+//color system
+//absolute units
+//height and width property
+//background-image property
+//visible property
+
+
+
+//we get pickk any color from color picker .
+//hex value.
+//we can used rgb color also .
+
+
+//absule unit ..
+//kishi chis ki sizes define karna hoin tab, hum log key akeya use kar sakta hain.
+//pixels.
+//pixels display ke hisab she chota or bora hot ahain.
+
+//height and width property.
+
+
+//height:px
+//width:px
+
+
+
+//background image;
+// shorthand property (color,image,repeat,attachment,position)
+//aksath ap add karke kar sakta hain.
+
+
+
+//visibility property
+//hidden 
+//visible.
+
+//*****************************************************
+
+//text property :
+1.text -align property
+2. text-decoration property
+3.text-transform property
+4.line-height property 
+5.font properties
+6.font family
+7. icon using fonts .
+
+//**************************************************************
+//text- align property 
+//center//left//right
+
+
+//************************************************
+//text decoration
+//underline 
+//upperlline 
+//etc.
+//text decoration color. bhi hum log kar sakta hain.
+
+
+//*********************************************
+
+//text transform..
+//koi bhi text hoin ushko hum log 
+//uppercse
+//lowercase 
+//capitalized
+//none 
+//etc kar sakta hain.
+
+//************************************************
+
+//line height property,
+
+line height: px.
+
+
+//**********************************************
+//font property.
+//font size.
+//text ko hum kinta na bhi chota or bada kar sakt ahain.
+
+//font weight: 100-900
+
+
+//*************************************
+//font style:
+//hum ak font ke konsi konsi sytle mein likh sakt hain.
+
+
+//****************************************************
+//font family .
+
+//text ak font family ke tara text dega.or ohh text ko ushi tara dekhne bhi lagega .
+//google fonts
+//or ishh font ko hum log directly link ke through add kar sakta hain in our head section.
+fontawesome//bhi use kar sakta hain .
+
+//***********************************************************
+
+//icons using fonts..
+//fontawesome.com 
+//e bhi ake head section ke andar add kar sakta hain.
+
+
+
+//********************************************************
+//box model ..
+
+//1.what is box model
+//2.padding property.
+//3.marging property.
+//4. border property
+
+
+//**************************************************************************
+//box ke center mein akdom hota hain content .
+//content ka matlab ehh hain ki .ap koi bhi kuch bhi banaya hoin .like ko element koi div ,koi heading ,koi para ,etc.
+//content have height 
+//and content have weight
+
+
+
+// ishke bad ataa hain padding 
+//content ke akdom thik upor hota hain padding.
+
+
+//then padding ke bad at hain border.
+//content =>padding=> border.
+
+//then ata hain marging
+//content=>padding=>border=>marging
+
+//top 
+//buttom/
+//left 
+//right
+
+//***********************************
+
+//hum log by default margin or padding ko 0 rakhte hain/
+
+
+
+//*******************************************
+//padding ...5px,10px,15px,20px.
+
+//padding always accurd as clock wise.
+//top 
+//right
+//buttom
+//left
+
+
+//************************************************************
+
+//border 
+//by default 2 hotahain 
+//border pixcel, border style, border color.
+
+//bordar redious;
+
+
+//********************************************************
+//margin
+//ebhi clock wise hota hain..
+//margin kabhi bhi box model mein add nahi hot ahain.
+
+
+
+//***********************************************************
+//box size.
+//borde box//jho box banega ohh border ke bad banega .
+
+//content box//jho default vaule ..content ke sath border fix ho jata hain.
+
+
+
+
+///**********************************************************
+
+//diplay and position
+
+
+//displat property
+//responsive website
+//relative units
+//position property
+//semantic tags.
+
+
+
+//**********************************************
+//display property
+//html have two types of property 
+//one block element 
+//inline elememnt..
+
+//**************************************************
+//block elemet jaha bhi lagaya jata hain ohh pura ke pura horizontal space lehh leta hain.
+div // div ke liye display defaul ly block hota hain.
+p tag
+h1
+ui tag 
+li tag
+
+//display block,
+
+//**********************************************************
+//inline element ohh hota hain .jitna space required utna hi leta hain .
+
+span tag
+strong
+a tag
+button tag
+
+//******************************************************
+//here we know about three type of display property 
+1.block //by default hoGI or next line mein ayega .
+2.inline ..same line mein ayega likein height or width ap thik se nahi thik kar payoge,
+3.inline block- ayenge to aki line mein horizontal line mein lekin property are work as a block property.
+
+
+
+//**************************************************
+//diplay none ,// diaply nahi hoga .
+
+
+//**********************************************
+//responsive website ,
+
+// reponsive web ke liye jho hum used karta hain ohh hot ahin relative units .
+
+1.px-absolute 
+2.elememnt
+3.rem
+4.%
+
+5.vh
+
+6.vw
+
+
+//********************************
+//%.............
+//% relative to parent.
+
+
+//***************************************
+
+//em
+//jho mere parent ka hog aohhi mera hoga .
+jho bhi mere parent ka size hoga ushhe related childa ka soize hoga .
+
+//*****************************************
+
+//rem ..
+root elemet ka sath em karega .
+
+
+//
+
+2rem = 2* root element values.
+
+rem tha related ith root element.
+
+
+//***********************************************
+//vh and vw
+//agar main chata huin koi bhi elemeny andar add karneke liye or mereshe koi root element ka add nei ,main chata huin element ta jho bhi change ho ohh windows ki tara se hoin..
+
+//
+
+//**********************************************************
+//position property
+//char tara hota hain
+//static-- matlab .normal document flow
+//relative - relative to itself,position adjust from his ormal position
+
+//***********************************************
+//absolute--  position lemet relative to the nearest positioned ancrestor.
+
+
+//************************************************
+//fixed :element positioned relative to the view port does not move on the scrool.
+
+
+
+//***********************************************
+//semantic tags/
+
+header
+nav tag
+
+
+main tag 
+section
+artical
+
+aside
+
+
+section
+
+
+footer..
+
+//semantic tag hota hain
+//non semantic bhi hota hain
+
+
+
+//*******************************************************
+header ke andar nav hott ahin or humm log nav bar ke andar koi kuch link add karneke liye .
+<a> tag</a> anker tag used karte hain.
+
+
+//flex box, grid and media queries
+1.float property
+
+2.what is flex box.
+
+3.flex model.
+
+4..flex box direction
+5.properties:flexbox container
+6.properties:flex items.
+7. grid layout
+8.media queries.
+//***********************************************
+
+//float property..
+
+//khsi ki html element ko float karke left jana hoin eha right me lehh jana hoin ehh karta hain.
+
+
+
+//***********************************************************
+//what is flex box..
+//flex boox is a one dimentional layout method for arranging items in rows or column.
+
+
+//flex box main ak container hoga or container ke andar bohot sare element hogi.
+
+
+//flex model
+//display flex.
+
+//main exis hota hain left to right and cross axis hota hain top to buttom..
+
+//bahar wala flex container 
+//andar wala flex element hota hain.
+
+//*********************************************************
+
+//flexbox direction.
+
+flex-box direction :row.
+flex-box direction :rowr reverse
+
+
+flex box direction :column
+flex box direction :column reverse
+
+//flex container ke jho element hota hain ohh bahar nahi jati ohh apne app hi contaner main shrink ho jata hain.
+
+//****************************************************
+//justify content.
+
+//flex-start
+//flex end.
+//flex center
+//space-between.
+//space- around.
+//space - evenly.
+
+//************************************************************
+//flex wrap..
+
+//nowrap//box chota hoga to item bhi shirnk hone lagega.
+//wrap//agar koi conataner ki liye jaiga bach na ho ohh niche ahh jayega.
+//wrap reverse.//uupor chala jayega.
+
+//*****************************************************************
+//flex-align item.
+
+//justify contant chal raha hain apne main axiis ke waay mein.
+
+//lekin agar cross axis mein koi value cchange karna pade to hum log use karta hain .aling item.
+
+
+
+//************************************************************************
+//align content.
+//define elementt ki bich ki spaceing.
+
+//har ak box ke bitch mein spaceing kitna hogi.
+
+//*********************************************
+
+//align self.
+//its property used on item ke upar.//ap tak jitna pproperty lag rahi thi ohh lag rahi thi contener ke upor.
+
+
+//***************************************************
+//flex -shrink.
+// flex box jho element rahata hain ohh pane hisab se grow or shrink karta hain .agar wrap off hoin.
+
+//agar specific koi box ko shrink karna chata haain tab hum flex-shrink karta hain.
+//ehh kam karta hain vertically.
+
+//*****************************************************
+
+//flex-grow 
+//same ee  kam hain srif ehh kam karta hian horizontaly.
+
+//****************************************************
+//oder..
+//overridding the main oder ordar .
+
+
+
+
+//****************
+
+//grid property.
+//multi dimentional layout.
+
+
+
+//**********************************************
+
+//media -queries
+//to create responsive website .
+@media type (screen)
+css rules 
+
+//kaise parent ki size change kare .
+
+//min width//max width
+//combination.
+
+
+
+
+
+//*****************************************************
+
+
+
+//animation, transition, and transform,
+
+1.pseudo classes
+2.transitions
+3.css transform
+4. animation.
+
+//**************************************************
+1.1.pseudo classes
+//used to define special states of html elements
+//hover, active, first-child.
+
+
+//********************************************
+//css transition
+//koi bhi  animation or transition karneke liye do state hota hain ak initial state or ak final state.
+//bich ka state ko browser automatically create kar deta hain.
+//css transition is a property that enables smooth animation between changes in css property values.
+
+//*********************************************************8
+//css transform.
+
+//modification of a element.
+
+//rotate
+//scale.
+//and trnaslate.
+//skew.
+
+
+
+//********************************************************************
+//animation
+//@keyframes ghumakkad
+animation ke name .
+//range bhi dena padta hain.
+
+//1.animation-name.
+//2.animation-duretion.
+//3.animation-timing-function
+//4.animation-delay
+//5.animation-iteration-count.
+//6.animatio-direction.
+
+
+
+
+//*****************************************************************
+
+//websites ..........
+//ant design ,
+//shoelace
+//mui universal
+//tailwind.
+
+
+
+
+
